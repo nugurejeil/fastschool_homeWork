@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+body{
+	margin: 10%;
+}
+/*
+.lecture ul, .demo ul{
+	기본적인 list스타일을 초기화
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+*/
+.reset-list ul{
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+a{
+	display:block;
+	font-size: 2.88em;
+	text-indent: 40px;
+	text-decoration: none;
+}
+
+/*파일포멧에 따라 자동으로 아이콘을 배경 이미지로 설정하는 스타일*/
+a[href ^="http://"][target]{
+	color:#bd8d46;
+}
+
+a[href$=".psd"]{
+	background-image: url("img/Layer 0.png");
+	background-repeat: no-repeat;
+}
+a[href$=".avi"]{
+	background-image: url("img/Layer 5.png");
+	background-repeat: no-repeat;
+}
+a[href$=".ai"]{
+	background-image: url("img/Layer 1.png");
+	background-repeat: no-repeat;
+}
+a[href$=".mov"]{
+	background-image: url("img/Layer 4.png");
+	background-repeat: no-repeat;
+}
+a[href$=".pdf"]{
+	background-image: url("img/Layer 2.png");
+	background-repeat: no-repeat;
+}
+a[href$=".txt"]{
+	background-image: url("img/Layer 3.png");
+	background-repeat: no-repeat;
+}
+a[href$=".doc"]{
+	background-image: url("img/Layer 6.png");
+	background-repeat: no-repeat;
+}
+a[href$=".xls"]{
+	background-image: url("img/Layer 7.png");
+	background-repeat: no-repeat;
+}
+a[href$=".jpg"]{
+	background-image: url("img/Layer 8.png");
+	background-repeat: no-repeat;
+}
+a[href$=".png"]{
+	background-image: url("img/Layer 9.png");
+	background-repeat: no-repeat;
+}
+a[href$=".mp3"]{
+	background-image: url("img/Layer 10.png");
+	background-repeat: no-repeat;
+}
+a[href$=".html"]{
+	background-image: url("img/Layer 11.png");
+	background-repeat: no-repeat;
+}
+a[href$=".mp4"]{
+	background-image: url("img/Layer 12.png");
+	background-repeat: no-repeat;
+}
+a[href$=".gif"]{
+	background-image: url("img/Layer 13.png");
+	background-repeat: no-repeat;
+}
+a[href$=".tiff"]{
+	background-image: url("img/Layer 14.png");
+	background-repeat: no-repeat;
+}
+a[href$=".js"]{
+	background-image: url("img/Layer 15.png");
+	background-repeat: no-repeat;
+}
+a[href$=".flac"]{
+	background-image: url("img/Layer 16.png");
+	background-repeat: no-repeat;
+}
+a[href$=".aac"]{
+	background-image: url("img/Layer 17.png");
+	background-repeat: no-repeat;
+}
+
+
+
