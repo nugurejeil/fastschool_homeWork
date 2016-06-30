@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>정렬 과제</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<style>
+		div.line-height{
+			width:10em;
+			height:5em;
+		  	border:0.5em solid black;
+			}  
+		 
+
+		div.line-height span{
+			background: red;
+			line-height: 5em;
+			}
+
+		div.table-cell{
+			display: table-cell;
+			width:10em;
+			height:5em;
+			margin:16px;           
+		  	border:0.5em solid black;
+			}
+
+		div.table-cell span{
+			background: blue;
+			line-height: 5em;
+			}
+
+		div.inline-block{
+			display: table-cell;
+			width:10em;
+			height:5em;
+			margin:16px;           
+		  	border:0.5em solid black;
+			}
+
+		div.inline-block span{
+			background: green;
+			line-height: 5em;
+			}
+	</style>
+</head>
+<body>
+	<!-- line-height 정렬 -->
+	<p>1. 자동으로 정렬되는 inline 요소의 성질을 이용하여 가운데로 정렬합니다.</p>
+	<div class="line-height">
+		<span>이거슨 line-height 정렬</span>
+	</div>
+
+	<!-- table-cell 정렬 -->
+	<p>2. Display:table-cell 상태에서의 정렬 </p>
+	<div class="table-cell">
+		<span>이거슨 table-cell 정렬</span>
+	</div>
+
+	<!-- inline-block 정렬 -->
+	<p>3. Display:inline-block 상태에서의 정렬 </p>
+	<div class="inline-block">
+		<span>이거슨 inline-block 정렬</span>
+	</div>
+
+</body>
+</html>
